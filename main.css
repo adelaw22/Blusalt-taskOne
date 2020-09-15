@@ -137,10 +137,6 @@ body .top-section nav .nav-content .dropdown .dropbtn:hover {
   transition: 0.5s;
 }
 
-body .top-section nav .nav-content .dropdown .show {
-  display: block;
-}
-
 body .top-section nav .nav-content .dropdown .drop-item {
   display: none;
   position: absolute;
@@ -150,6 +146,10 @@ body .top-section nav .nav-content .dropdown .drop-item {
   width: 90px;
   height: 70px;
   margin-top: 20px;
+}
+
+body .top-section nav .nav-content .dropdown .drop-item .show {
+  display: block;
 }
 
 body .top-section nav .nav-content .dropdown .drop-item a {

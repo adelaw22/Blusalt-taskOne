@@ -138,9 +138,7 @@ body {
             }
           }
 
-          .show {
-            display: block;
-          }
+
 
 
           .drop-item {
@@ -152,6 +150,10 @@ body {
             width: 90px;
             height: 70px;
             margin-top: 20px;
+
+            .show {
+              display: block;
+            }
 
 
 
